@@ -1,0 +1,81 @@
+.custom-bar-bg{
+  background-color: #666;
+  width: 380px;
+  height: 20px;
+  border-radius:100px;
+  position: relative;
+  margin: 5px;
+}
+
+.custom-bar-color{
+  background-color: #5D9CEC;
+  width: 60%;
+  height: 110%;
+  border-radius:100px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.bar-text{
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius:100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--main-text);
+}
+
+@media only screen and (max-width: 1000px) {
+  .large-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .custom-bar-bg{
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .large-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .custom-bar-bg{
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .large-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .custom-bar-bg{
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .large-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .custom-bar-bg{
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .large-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .custom-bar-bg{
+    width: 150px;
+  }
+}

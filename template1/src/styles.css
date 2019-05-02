@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+:root {
+  --main-color1: #5D9CEC;
+  --main-color2: #0D65D8;
+  --main-color1-light: #5d9bec1f;
+  --main-color2-light: #0d65d81f;
+  --main-text: white;
+  --main-color2-medium: #0d65d8a8;
+}
+/*
+:root {
+  --main-color1: #AC92EC;
+  --main-color2: #7455C3;
+  --main-color1-light: #48CFAD1f;
+  --main-color2-light: #7455C31f;
+  --main-text: white;
+  --main-color2-medium: #7455C3a8;
+} */
+
+/*
+:root {
+  --main-color1: #EC87C0;
+  --main-color2: #BF4C90;
+  --main-color1-light: #EC87C01f;
+  --main-color2-light: #BF4C901f;
+  --main-text: white;
+  --main-color2-medium: #BF4C90a8;
+} */
+
+/* :root {
+  --main-color1: #48CFAD;
+  --main-color2: #19A784;
+  --main-color1-light: #48CFAD1f;
+  --main-color2-light: #19A7841f;
+  --main-text: white;
+  --main-color2-medium: #19A784a8;
+} */
+
+/* :root {
+  --main-color1: #FFDA7C;
+  --main-color2: #F6A742;
+  --main-color1-light: #FFDA7C1f;
+  --main-color2-light: #F6A7421f;
+  --main-text: white;
+  --main-color2-medium: #F6A742a8;
+} */
+
+/* :root {
+  --main-color1: #A0D468;
+  --main-color2: #6EAF26;
+  --main-color1-light: #A0D4681f;
+  --main-color2-light: #6EAF261f;
+  --main-text: white;
+  --main-color2-medium: #6EAF26a8;
+} */
+
+/* :root {
+  --main-color1: #ED5565;
+  --main-color2: #D62739;
+  --main-color1-light: #ED55651f;
+  --main-color2-light: #D627391f;
+  --main-text: white;
+  --main-color2-medium: #D62739a8;
+} */
+
+ /* :root {
+  --main-color1: #FC6E51;
+  --main-color2: #DB391E;
+  --main-color1-light: #FC6E511f;
+  --main-color2-light: #DB391E1f;
+  --main-text: white;
+  --main-color2-medium: #DB391Ea8;
+} */
+
+
+
+

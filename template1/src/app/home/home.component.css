@@ -1,0 +1,98 @@
+.container-icons{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.item-icon{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid var(--main-text);
+  position: relative;
+}
+
+.item-icon i{
+  color: var(--main-text);
+  font-size: 3rem;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.item-icon:hover i{
+  color: var(--main-color1);
+}
+
+.item-icon:hover{
+  background-color: var(--main-text);
+  cursor: pointer;
+}
+
+h1, h3{
+  color: var(--main-text);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container-headers{
+  margin-bottom: 20px;
+}
+
+.container-logo{
+  width: 220px;
+  color: var(--main-text);
+  font-size: 1.5rem;
+  margin-left: 20px;
+  position: absolute;
+  left: 60px;
+  top: 30px;
+}
+
+.container-logo i{
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container-logo{
+    left: 40px;
+    top: 15px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .container-logo{
+    left: 20px;
+    top: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container-icons{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .item-icon{
+    margin: 0px auto;
+    margin-bottom: 25px;
+  }
+
+  .container-logo{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin: 15px auto;
+    margin-bottom: 25px;
+  }
+  .container-headers{
+    padding: 2px;
+  }
+}

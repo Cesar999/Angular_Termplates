@@ -1,0 +1,4 @@
+.app-container{
+  background: linear-gradient(to right, var(--main-color1), var(--main-color2));
+  position: relative;
+}

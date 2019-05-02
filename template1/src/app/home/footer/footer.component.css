@@ -1,0 +1,15 @@
+.footer{
+  height: 100px;
+  width: 100%;
+  background-color: var(--main-text);
+  color: var(--main-color2);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  font-style: italic;
+}
+
+.important{
+  font-weight: 600;
+}

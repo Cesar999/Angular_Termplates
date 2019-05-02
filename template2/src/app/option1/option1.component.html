@@ -1,0 +1,47 @@
+<div class="chart-container">
+    <canvas id="chart"
+    baseChart
+    [datasets]="barChartData"
+    [labels]="barChartLabels"
+    [options]="barChartOptions"
+    [legend]="barChartLegend"
+    [chartType]="barChartType">
+    ></canvas>
+</div>
+
+<div class="large-container">
+
+    <div class="pie-container">
+        <h1 class="percentage">{{pie1}}%</h1>
+        <canvas
+        baseChart
+        [labels]="pie1labels"
+        [datasets]="pie1ChartData"
+        [options]="pieOptions"
+        [chartType]="pieChartType">
+        ></canvas>
+    </div>
+
+    <div class="pie-container">
+        <h1 class="percentage">{{pie2}}%</h1>
+        <canvas
+        baseChart
+        [labels]="pie2labels"
+        [datasets]="pie2ChartData"
+        [options]="pieOptions"
+        [chartType]="pieChartType">
+        ></canvas>
+    </div>
+
+    <div class="pie-container">
+        <h1 class="percentage">{{pie3}}%</h1>
+        <canvas
+        baseChart
+        [labels]="pie3labels"
+        [datasets]="pie3ChartData"
+        [options]="pieOptions"
+        [chartType]="pieChartType">
+        ></canvas>
+    </div>
+
+</div>

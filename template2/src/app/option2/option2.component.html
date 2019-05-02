@@ -1,0 +1,20 @@
+
+<div class="global-container">
+    <div class="chart-container">
+        <canvas id="chart"
+        baseChart
+        [datasets]="barChartData"
+        [labels]="barChartLabels"
+        [options]="barChartOptions"
+        [legend]="barChartLegend"
+        [chartType]="barChartType">
+        ></canvas>
+    </div>
+
+    <div class="large-container">
+      <div class="custom-bar-container" *ngFor="let b of bars">
+        <h2>{{b.name}}</h2>
+        <app-mycustombar [color]="b.color" [width]=[b.width]></app-mycustombar>
+      </div>
+    </div>
+</div>

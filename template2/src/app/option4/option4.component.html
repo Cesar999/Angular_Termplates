@@ -1,0 +1,16 @@
+<div class="large-container">
+  <div class="small-container">
+      <table>
+          <thead>
+            <th (click)="sortMonths()">Month</th>
+            <th (click)="sort($event)" *ngFor = "let k of keys">{{k}}</th>
+          </thead>
+          <tbody>
+            <tr *ngFor = "let d of data">
+              <td>{{d.month}}</td>
+              <td *ngFor = "let k of keys">{{d[k]}}</td>
+            </tr>
+          </tbody>
+        </table>
+  </div>
+</div>

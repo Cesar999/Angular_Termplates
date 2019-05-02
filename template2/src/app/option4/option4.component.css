@@ -1,0 +1,60 @@
+.large-container{
+  position: relative;
+  box-shadow: 0px 0px 10px var(--main-color1);
+  background-color: var(--main-background);
+  margin: 15px;
+  margin-left: 20px;
+}
+
+.small-container {
+
+}
+*{
+  background-color: transparent;
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: var(--main-color2-light);
+}
+
+td, th{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5px;
+  color: #666;
+}
+
+tr:hover{
+  background-color: var(--main-color2);
+}
+tr:hover td{
+  color: var(--main-text);
+}
+
+th:hover{
+  background-color: var(--main-color2);
+  color: var(--main-text);
+  cursor: pointer;
+}
+
+th{
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  color: var(--main-color2);
+  width: 130px;
+}
+
+tr {
+  border-top: 2px solid var(--main-color2);
+}
+
+
+@media only screen and (max-width: 800px) {
+  .large-container{
+    overflow-x: scroll;
+  }
+}

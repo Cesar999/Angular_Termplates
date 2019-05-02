@@ -1,0 +1,84 @@
+<hr>
+<br>
+<h1>Get In Touch</h1>
+<br>
+<div class="getintouch-container">
+
+  <div class="form-container">
+      <form [formGroup]="projectForm" (ngSubmit)="onSubmit()">
+
+        <div class="input-container">
+          <div class="form-group name">
+            <!-- <label for="name">Name</label> -->
+            <input
+              placeholder="Name"
+              type="text"
+              id="name"
+              class="form-control"
+              formControlName="name">
+          </div>
+
+          <div class="form-group email">
+            <!-- <label for="email">Mail</label> -->
+            <input
+              placeholder="Email"
+              type="email"
+              id="email"
+              class="form-control"
+              formControlName="email">
+          </div>
+        </div>
+
+          <div class="form-group message">
+              <!-- <label for="message">Message</label> -->
+              <textarea rows="10" cols="30"
+                placeholder="Message"
+                id="message"
+                class="form-control"
+                formControlName="message">
+              </textarea>
+          </div>
+        </form>
+
+        <button class='button-git'>Send Message</button>
+  </div>
+
+
+  <div class="address-container">
+    <div class="padder">
+        <div class="icon">
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="content">
+            <h4>Address</h4>
+            <div>123 Somewhere Road #123</div>
+            <div>San Diego, CA</div>
+        </div>
+    </div>
+  </div>
+
+  <div class="email-container">
+      <div class="padder">
+          <div class="icon">
+              <i class="fas fa-envelope"></i>
+          </div>
+          <div class="content">
+              <h4>Email</h4>
+              <div>something@hotmail.com</div>
+          </div>
+      </div>
+  </div>
+
+  <div class="phone-container">
+      <div class="padder">
+          <div class="icon">
+              <i class="fas fa-phone"></i>
+          </div>
+          <div class="content">
+              <h4>Phone</h4>
+              <div>(555) 123-4567 ext.8900</div>
+          </div>
+      </div>
+  </div>
+
+</div>

@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  background-color: transparent;
+  color: #666;
+}
+
+.global-container{
+  width: 100vw;
+  height: 100vh;
+  /* background: linear-gradient(to right, var(--main-color1-light), var(--main-color2-light)), url('../assets/hero1.jpg'); */
+  background-image:  url('../assets/hero1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--main-color1-light);
+  background-blend-mode: lighten;
+}
+
+@media only screen and (max-width: 1000px) {
+  .global-container{
+    width: auto;
+    height: auto;
+  }
+  .global-container .container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+}

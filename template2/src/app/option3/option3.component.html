@@ -1,0 +1,13 @@
+<div class="large-container">
+    <div class="small-container">
+        <canvas
+        baseChart
+        [chartType]="'line'"
+        [datasets]="chartData"
+        [labels]="chartLabels"
+        [options]="chartOptions"
+        [legend]="true"
+        (chartClick)="onChartClick($event)">
+        </canvas>
+    </div>
+</div>
